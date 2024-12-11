@@ -9,18 +9,18 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #121212; /* Dark background */
-    background-image: url('Wallpaper.jpg');
-    background-size: cover; /* Ensure the image covers the entire background */
+    background-image: url('wallpaper.jpg');
+    background-size: cover; 
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center center; /* Center the image */
-    color: #fff; /* Light text for readability */
+    background-position: center center; 
+    color: #fff; 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    padding-top: 60px; /* Adjust for fixed nav */
+    padding-top: 60px; 
     margin: 0;
     padding: 0;
 }
@@ -54,7 +54,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff; /* White text */
+    color: #fff; 
     text-decoration: none;
     font-size: 1rem;
     padding: 10px 20px;
@@ -62,7 +62,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #adb1af; /* Lighter green on hover */
+    background-color: #adb1af; 
     border-radius: 5px;
 }
 
@@ -82,7 +82,7 @@ nav ul li a.active {
     width: 100%;
     max-width: 800px;
     margin: auto;
-    background-color: #282828; /* Darker background for container */
+    background-color: #282828; 
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     position: absolute;
@@ -90,9 +90,8 @@ nav ul li a.active {
     left: 50%; 
     transform: translate(-50%, -50%); 
 }
-
-/* Payroll Container */
-.payroll-container {
+/* Payroll Management Container */
+.payroll-management-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -101,14 +100,29 @@ nav ul li a.active {
     padding: 20px;
     width: 100%;
     max-width: 800px;
-    margin: auto;
-    background-color: #282828; /* Darker background for container */
+    margin: 20px 0; 
+    background-color: #282828; 
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    position: absolute;
-    top: 60%; 
-    left: 50%; 
-    transform: translate(-50%, -50%);
+}
+
+/* Payroll List Container */
+.payroll-list-container {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 800px;
+    background-color: #282828; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    position: relative;
+    top: 20px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 20px 0; 
 }
 
 /* Converters */
@@ -133,7 +147,7 @@ nav ul li a.active {
 /* Heading */
 h1, h2, h3, h4, h5, h6 {
     color: #fff;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Add text shadow for better readability */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); 
 }
 
 h2, h3 {
@@ -167,7 +181,7 @@ button {
     padding: 10px 20px;
     font-size: 1rem;
     color: #fff;
-    background-color: #333; /* Dark gray background */
+    background-color: #333; 
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -175,7 +189,7 @@ button {
 }
 
 button:hover {
-    background-color: #555; /* Lighter gray on hover */
+    background-color: #555; 
     transform: translateY(-2px);
 }
 
@@ -200,16 +214,16 @@ table, th, td {
 }
 
 th {
-    background-color: rgba(51, 51, 51, 0.8); /* Semi-transparent dark gray */
+    background-color: rgba(51, 51, 51, 0.8); 
     color: #fff;
 }
 
 tbody tr:nth-child(even) {
-    background-color: rgba(77, 77, 77, 0.8); /* Semi-transparent lighter gray */
+    background-color: rgba(77, 77, 77, 0.8); 
 }
 
 p {
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+    background-color: rgba(0, 0, 0, 0.5); 
     padding: 10px;
     border-radius: 5px;
 }
